@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Tết nguyên đán 2022 - Đếm ngược!
+        </title>
+        <link href="images/35402.jpg" rel="icon"/>
+
+        
+        <!-- CSS -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+		
+        <link href="css/loader.css" rel="stylesheet" type="text/css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/ie.css" />
+        <![endif]-->
+        <!-- Javascript -->
+
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+	<script language="JavaScript">
+function tb5_makeArray(n){ this.length = n; return this.length;
+}
+tb5_messages = new tb5_makeArray(3);
+tb5_messages[0] = "..:[ NVC ]:..";
+tb5_messages[1] = "..:[ -=Checked By Chan Xinh Trai=- ]:..";
+tb5_rptType = 'infinite';
+tb5_rptNbr = 20;
+tb5_speed = 1;
+tb5_delay = 2000;
+var tb5_counter=2;
+var tb5_currMsg=0;
+var tb5_stsmsg="test";
+function tb5_shuffle(arr){
+var k;
+for (i=0; i<arr.length; i++){ k = Math.round(Math.random() * (arr.length - i - 1)) + i; temp = arr[i];arr[i]=arr[k];arr[k]=temp;
+}
+return arr;
+}
+tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = "_";
+}
+tb5_arr = tb5_shuffle(tb5_arr);
+function tb5_init(n){
+var k;
+if (n == tb5_arr.length){ if (tb5_currMsg == tb5_messages.length-1){ if ((tb5_rptType == 'finite') && (tb5_counter==tb5_rptNbr)){ clearTimeout(tb5_timerID); return; } tb5_counter++; tb5_currMsg=0; } else{ tb5_currMsg++; } n=0; tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length); tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length); for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = "_"; } tb5_arr = tb5_shuffle(tb5_arr); tb5_sp=tb5_delay;
+}
+else{ tb5_sp=tb5_speed; k = tb5_arr[n]; tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k); tb5_stsmsg = ""; for (var i=0; i<tb5_sts.length; i++) tb5_stsmsg += tb5_sts[i]; document.title = tb5_stsmsg; n++; } tb5_timerID = setTimeout("tb5_init("+n+")", tb5_sp);
+}
+function tb5_randomizetitle(){ tb5_init(0);
+}
+tb5_randomizetitle();
+  var txt = " Tết Nguyên Đán 2022 - Đếm Ngược!    ";
+        var espera = 200;
+        var refresco = null;
+        function rotulo_title() {
+            document.title = txt;
+            txt = txt.substring(1, txt.length) + txt.charAt(0);
+            refresco = setTimeout("rotulo_title()", espera);
+        }
+        rotulo_title();
+    </script>
+        <div class="preloader">
+            <div class="loading">
+                <h2>
+                    Loading...
+                </h2>
+                <span class="progress"></span>
+            </div>
+        </div>
+        <div class="wrapper">
+            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
+                <li class="layer" data-depth="0.00">
+                </li>
+                <!-- BG -->
+
+                <li class="layer" data-depth="0.10">
+                    <div class="background">
+                    </div>
+                </li>
+
+                <!-- Hero -->
+
+                <li class="layer" data-depth="0.20">
+                    <div class="title">
+                        <h2>
+                            Sắp tết rồi!! Chỉ còn
+                        </h2>
+                        <span class="line"></span>
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.25">
+                    <div class="sphere">
+                        <img alt="sphere" src="images/sphere.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.30">
+                    <div class="hero">
+                        <h1 id="countdown">
+                            Chúc Mừng Năm Mới!
+                        </h1>
+
+                        <p class="sub-title">
+                            Chúc Mừng Năm Mới!
+                        </p>
+                    </div>
+                </li>
+                <!-- Flakes -->
+
+                <li class="layer" data-depth="0.40">
+                    <div class="depth-1 flake1">
+                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
+                    </div>
+
+                    <div class="depth-1 flake2">
+                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
+                    </div>
+
+                    <div class="depth-1 flake3">
+                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
+                    </div>
+
+                    <div class="depth-1 flake4">
+                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.50">
+                    <div class="depth-2 flake1">
+                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
+                    </div>
+
+                    <div class="depth-2 flake2">
+                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.60">
+                    <div class="depth-3 flake1">
+                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
+                    </div>
+
+                    <div class="depth-3 flake2">
+                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
+                    </div>
+
+                    <div class="depth-3 flake3">
+                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
+                    </div>
+
+                    <div class="depth-3 flake4">
+                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="0.80">
+                    <div class="depth-4">
+                        <img alt="flake" src="images/flakes/depth4/flakes.png">
+                    </div>
+                </li>
+
+                <li class="layer" data-depth="1.00">
+                    <div class="depth-5">
+                        <img alt="flake" src="images/flakes/depth5/flakes.png">
+                    </div>
+                </li>
+                <!-- Contact -->
+
+                <li class="layer" data-depth="0.20">
+                    <div class="contact">
+                        <ul class="icons">
+                            <li>
+                                <a class="behance" href="https://www.facebook.com/NVC.9999/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="twitter" href="https://github.com/nguyenvanchan123"><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                        Theme by <a href="https://www.facebook.com/NVC.9999/" target="_blank">NVC</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Javascript -->
+        <script src="js/plugins.js"></script> 
+        <script src="js/jquery.countdown.min.js"></script> 
+        <script src="js/main.js"></script>
+
+    </body>
+
+    <body>   
+	 <iframe src="https://www.nhaccuatui.com/mh/auto/wfwjFuLeyX7R" width="620" height="382" frameborder="0" allowfullscreen allow="autoplay"></iframe>	 
+	 <object width="0" height="0">
+	 <embed src="https://www.nhaccuatui.com/mh/auto/wfwjFuLeyX7R" flashvars="target=blank&autostart=true" allowscriptaccess="always" allowfullscreen="true" quality="high" wmode="transparent" type="application/x-shockwave-flash" width="1" height="1"></embed>
+	 </object>
+	</body>
+	<!--<li><a <iframe src="https://www.nhaccuatui.com/mh/background/wfwjFuLeyX7R" width="1" height="1" frameborder="0" ></iframe></li>   -->
+</html>
